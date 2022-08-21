@@ -5,6 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="libs/css/glide.core.css">
+    <link rel="stylesheet" href="libs/css/glide.theme.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -22,6 +25,69 @@
     <title>QR CODE GENERATOR</title>
 </head>
 <body>
-    <h1>Title</h1>
+<div class="wrap">
+
+    <h4>Slider with 2 perView, focusAt center</h4>
+
+    <div class="glide multi">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <li class="glide__slide">1</li>
+                <li class="glide__slide">2</li>
+                <li class="glide__slide">3</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <h4>Carousel with 3 perView</h4>
+    <div class="glide multi1">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <li class="glide__slide">1</li>
+                <li class="glide__slide">2</li>
+                <li class="glide__slide">3</li>
+                <li class="glide__slide">4</li>
+            </ul>
+        </div>
+    </div>
+
+    <h4>Carousel with 1 perView</h4>
+    <div class="glide hero">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <li class="glide__slide">1</li>
+                <li class="glide__slide">2</li>
+                <li class="glide__slide">3</li>
+                <li class="glide__slide">4</li>
+            </ul>
+        </div>
+        <!--     <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--prev" data-glide-dir="<">prev</button>
+              <button class="glide__arrow glide__arrow--next" data-glide-dir=">">next</button>
+            </div> -->
+    </div>
+
+    <h4>Carousel with 1 perView and peek</h4>
+    <div class="glide heropeek">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <img class="glide__slide" src="https://thumbs.dreamstime.com/b/woman-praying-free-bird-enjoying-nature-sunset-background-hope-concept-94227839.jpg">
+                <img class="glide__slide" src="https://images.pexels.com/photos/39853/woman-girl-freedom-happy-39853.jpeg?auto=compress&cs=tinysrgb&w=800">
+                <img class="glide_slide" src="https://images.ctfassets.net/hrltx12pl8hq/7JnR6tVVwDyUM8Cbci3GtJ/bf74366cff2ba271471725d0b0ef418c/shutterstock_376532611-og.jpg">
+            </ul>
+        </div>
+        <!--     <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--prev" data-glide-dir="<">prev</button>
+              <button class="glide__arrow glide__arrow--next" data-glide-dir=">">next</button>
+            </div> -->
+    </div>
+
+
+
+
+
+</div>
+    <script src="libs/glide.min.js"></script>
 </body>
 </html>
