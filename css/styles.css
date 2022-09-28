@@ -1,10 +1,11 @@
-.wrap {
-    max-width: 900px;
-    margin: 0 auto;
+.body {
+    background-color: #2b2a33;
+    color: #fff;
+    font-family: 'Noto Sans Mono', monospace;
 }
-.glide__slide {
-    border: 1px solid black;
-    line-height: 100px;
-    margin: 0;
-    text-align: center;
+
+.body .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
