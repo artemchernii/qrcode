@@ -8,4 +8,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+}
+.body .wrapper h1 {
+    font-size: 20em;
+    font-weight: bold;
 }
